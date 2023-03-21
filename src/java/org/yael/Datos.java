@@ -12,28 +12,35 @@ import java.io.Serializable;
  *
  * @author PC
  */
-public class Datos implements Serializable {
-
+public class Datos implements Serializable
+{
     private String nombre;
     private float calf;
 
-    public Datos() {
+    public Datos() 
+    {
     }
 
-    public String getNombre() {
+    public String getNombre() 
+    {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre) 
+    {
         this.nombre = nombre;
     }
 
-    public float getCalf() {
+    public float getCalf()
+    {
         return calf;
     }
 
-    public void setCalf(float calf) {
+    public void setCalf(float calf)
+    {
         this.calf = calf;
     }
+    
+    
 
 }
